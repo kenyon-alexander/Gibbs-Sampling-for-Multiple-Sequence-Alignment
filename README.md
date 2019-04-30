@@ -16,4 +16,7 @@ Files containing the functions and main for the algorithm:
   1. gibbs_main.c
   2. gibbs_functions.h
   
- 
+  
+Bugs in the code:
+
+There is an issue with the score maximisation logic in this algorithm, which causes the "current maximum" score to jump around more than necessary. Over the course of >1000 iterations this is not a problem, but it could be fixed relatively easily. 
